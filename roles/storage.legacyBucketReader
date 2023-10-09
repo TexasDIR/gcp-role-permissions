@@ -1,0 +1,12 @@
+{
+  "description": "Grants permission to list a bucket's contents and read bucket metadata, excluding IAM policies. Also grants permission to read object metadata when listing objects (excluding IAM policies).",
+  "etag": "AA==",
+  "includedPermissions": [
+    "storage.buckets.get",
+    "storage.multipartUploads.list",
+    "storage.objects.list"
+  ],
+  "name": "roles/storage.legacyBucketReader",
+  "stage": "GA",
+  "title": "Storage Legacy Bucket Reader"
+}
